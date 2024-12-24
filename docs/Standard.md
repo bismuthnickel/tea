@@ -1,6 +1,9 @@
 # tea standard (Tea24) [work in progress]
+
 [types](#types)  
-[declarations](#declarations)
+[declarations](#declarations)  
+[expressions](#expressions)  
+[control](#control)  
 
 ## types
 
