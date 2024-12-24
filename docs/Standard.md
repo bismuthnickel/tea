@@ -62,5 +62,67 @@ type name(type arg1, type arg2...)
 end
 ```
 
+## expressions
 
+### arithmetic
+
+`x + y`, `x - y`, `x * y`, `x / y` and `x ^ y` are all valid expressions  
+
+### logical
+
+`x & y`, `x | y`, `x << y`, `x >> y`, and `~x` are all valid logical operations  
+
+### boolean
+
+`x && y`, `x || y`, and `!x` are all valid boolean conditions  
+
+## control
+
+### if/else
+
+if  
+```tea
+if (condition)
+    logic...
+end
+```
+
+if/else  
+```tea
+if (condition)
+    logic...
+else
+    logic...
+end
+```
+
+ternary
+```tea
+? (condition) true : false;
+```
+
+### while loops
+
+while
+```tea
+while (condition)
+    logic...
+end
+```
+
+### for loops
+
+variable, condition, increment
+```tea
+for (uint16_t i = 0;(i<<2)<66;i+=1)
+    logic..
+end
+```
+
+### keywords for looping
+
+for any while or for loops, these keywords always apply.
+
+break - end loop, without finishing logic.  
+continue - loop again, without finishing logic.  
 
